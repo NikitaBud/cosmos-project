@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starships</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="spaceship-page">
+    <header>
+      <div class="logo">Space</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="spaceships.html">Starships</a></li>
+          <li><a href="planets.html">Planets</a></li>
+          <li><a href="about.html">About Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Starships</h1>
+
+      <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>Load data ...</p>
+      </div>
+
+      <table id="starships-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Cargo capacity</th>
+            <th>Consumables</th>
+            <th>Cost in credits</th>
+            <th>Crew</th>
+            <th>Length</th>
+            <th>Max atm.speed</th>
+            <th>Passengers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Api data load here from JS -->
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Space. All rights reserved.</p>
+    </footer>
+
+    <script src="spaceship.js"></script>
+  </body>
+</html>
