@@ -54,6 +54,7 @@ If you wish to deploy the project yourself, follow these steps:
 
 ## Project Structure
 
+```bash
 cosmos-project/
 ├── index.html # Home page
 ├── ships.html # Spaceships page
@@ -61,6 +62,7 @@ cosmos-project/
 ├── about.html # About page
 ├── style.css # Styles for the pages
 └── script.js # Logic for fetching data from the API
+```
 
 ## Key Features
 
@@ -74,3 +76,7 @@ This project was created and is maintained by Nik Budiakov.
 ## License
 
 This project is licensed under the MIT License.
+
+```
+
+```
