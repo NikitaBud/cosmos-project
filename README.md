@@ -76,7 +76,3 @@ This project was created and is maintained by Nik Budiakov.
 ## License
 
 This project is licensed under the MIT License.
-
-```
-
-```
